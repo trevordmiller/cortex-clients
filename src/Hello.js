@@ -7,7 +7,7 @@ export default () => (
     padding: 30,
   }}>
     <Text>
-      Hello world!
+      Hello universe
     </Text>
   </View>
 )
