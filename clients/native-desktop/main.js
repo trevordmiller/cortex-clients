@@ -8,7 +8,7 @@ const createWindow = () => {
     width: 800, 
     height: 600,
   })
-  mainWindow.loadURL('http://localhost:3000')
+  mainWindow.loadURL('http://localhost:3001')
   mainWindow.on('closed', () => {
     mainWindow = null
   })

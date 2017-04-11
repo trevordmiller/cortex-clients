@@ -3,8 +3,8 @@ import {View, Text} from 'react-native'
 
 export default () => (
   <View style={{
-    backgroundColor: 'lightgray',
-    padding: 30,
+    backgroundColor: 'lightblue',
+    padding: 10,
   }}>
     <Text>
       Hello universe

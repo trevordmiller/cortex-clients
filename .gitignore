@@ -1,4 +1,5 @@
 **/node_modules/
-lib/
-clients/native-mobile/.expo/
+**/lib/
+**/build/
+**/.expo/
 .DS_Store

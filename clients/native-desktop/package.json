@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "BROWSER=none react-scripts start",
+    "dev": "BROWSER=none PORT=3001 react-scripts start",
     "electron": "electron ."
   },
   "devDependencies": {
