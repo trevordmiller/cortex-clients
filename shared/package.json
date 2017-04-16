@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "build": "babel src -d lib",
-    "dev": "yarn build -- -w"
+    "dev": "yarn build -- -w",
+    "prepublish": "yarn build"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -15,6 +16,12 @@
     "react": "^15.5.4",
     "react-native-web": "^0.0.81"
   },
+  "main": "lib/index.js",
+  "files": [
+    "package.json",
+    "README.md",
+    "lib"
+  ],
   "babel": {
     "presets": [
       "env",

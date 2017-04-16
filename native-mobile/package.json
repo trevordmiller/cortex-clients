@@ -2,6 +2,7 @@
   "name": "cortex-clients-native-mobile",
   "version": "0.1.0",
   "private": true,
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
     "dev": "react-native-scripts start"
   },
@@ -13,7 +14,6 @@
     "react": "^15.5.4",
     "react-native": "^0.43.3"
   },
-  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "babel": {
     "presets": [
       "babel-preset-expo"

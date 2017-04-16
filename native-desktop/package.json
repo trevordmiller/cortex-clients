@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "BROWSER=none PORT=3001 react-scripts start",
-    "electron": "electron ."
+    "start": "electron ."
   },
   "devDependencies": {
     "electron": "^1.6.2",
