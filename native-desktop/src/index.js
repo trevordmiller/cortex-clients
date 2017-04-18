@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Hello from '../../shared/lib/Hello'
+import Root from '../../shared/lib/Root'
 
 ReactDOM.render(
-  <Hello />,
+  <Root />,
   document.getElementById('root')
 )

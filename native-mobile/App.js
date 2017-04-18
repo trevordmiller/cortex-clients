@@ -1,6 +1,6 @@
 import React from 'react'
-import Hello from '../shared/lib/Hello'
+import Root from './lib/Root'
 
 export default () => (
-  <Hello />
+  <Root />
 )
