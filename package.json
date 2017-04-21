@@ -1,7 +1,7 @@
 {
   "name": "cortex-clients",
   "version": "0.1.0",
-  "description": "The front-end pieces for Cortex",
+  "description": "The client-specific pieces for Cortex",
   "repository": "trevordmiller/cortex-clients",
   "license": "MIT",
   "author": "Trevor D. Miller (https://trevordmiller.com)"

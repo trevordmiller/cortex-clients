@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Root from '../../shared/lib/Root'
+import {Root} from 'cortex-components'
 
 ReactDOM.render(
   <Root />,

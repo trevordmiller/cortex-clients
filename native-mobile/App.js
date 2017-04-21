@@ -1,5 +1,5 @@
 import React from 'react'
-import Root from './lib/Root'
+import {Root} from 'cortex-components'
 
 export default () => (
   <Root />

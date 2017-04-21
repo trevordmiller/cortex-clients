@@ -12,7 +12,8 @@
   "dependencies": {
     "expo": "^15.1.3",
     "react": "^15.4.1",
-    "react-native": "^0.42.3"
+    "react-native": "^0.42.3",
+    "cortex-components": "0.0.1"
   },
   "babel": {
     "presets": [

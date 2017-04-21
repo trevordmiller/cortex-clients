@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Root from '../../shared/lib/Root'
+import {BrowseQuestions} from 'cortex-components'
 
 ReactDOM.render(
-  <Root />,
+  <BrowseQuestions />,
   document.getElementById('root')
 )
