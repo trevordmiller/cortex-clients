@@ -10,7 +10,7 @@
     "react-native-scripts": "^0.0.27"
   },
   "dependencies": {
-    "cortex-components": "^0.1.0",
+    "cortex-components": "^0.1.1",
     "expo": "^15.1.3",
     "react": "^15.4.1",
     "react-native": "^0.42.3"
