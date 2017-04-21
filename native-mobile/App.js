@@ -1,6 +1,6 @@
 import React from 'react'
-import {Root} from 'cortex-components'
+import {BrowseQuestions} from 'cortex-components'
 
 export default () => (
-  <Root />
+  <BrowseQuestions />
 )
