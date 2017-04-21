@@ -1322,13 +1322,13 @@ core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
-cortex-components@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/cortex-components/-/cortex-components-0.1.1.tgz#a398ed59f25728cd79819259b2e01aafef676edc"
+cortex-components@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/cortex-components/-/cortex-components-0.1.2.tgz#e5116e312433267edb0cdfaaa3dee29dd33cf764"
   dependencies:
     react "^15.5.4"
     react-native-web "^0.0.81"
-    react-relay dev
+    react-relay "1.0.0-rc.2"
 
 cosmiconfig@^2.1.0, cosmiconfig@^2.1.1:
   version "2.1.1"
@@ -4234,7 +4234,7 @@ react-native-web@^0.0.81:
     react-textarea-autosize "^4.0.4"
     react-timer-mixin "^0.13.3"
 
-react-relay@dev:
+react-relay@1.0.0-rc.2:
   version "1.0.0-rc.2"
   resolved "https://registry.yarnpkg.com/react-relay/-/react-relay-1.0.0-rc.2.tgz#652796949cb58f14b39542b9977882ecccd53aa2"
   dependencies:
