@@ -1322,9 +1322,9 @@ core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
-cortex-components@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/cortex-components/-/cortex-components-0.1.2.tgz#e5116e312433267edb0cdfaaa3dee29dd33cf764"
+cortex-components@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/cortex-components/-/cortex-components-0.1.5.tgz#3fcba09e3442fb46cfa6069ba6923d5d92edd77a"
   dependencies:
     react "^15.5.4"
     react-native-web "^0.0.81"
