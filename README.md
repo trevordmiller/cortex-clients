@@ -1,3 +1,3 @@
 # cortex-clients
 
-The front-end pieces for Cortex
+The client-specific pieces for Cortex
