@@ -1,9 +1,9 @@
-const electron = require('electron')
+const {app, BrowserWindow} = require('electron')
 
 let mainWindow
 
 const createWindow = () => {
-  const BrowserWindow = electron.BrowserWindow
+  const BrowserWindow = BrowserWindow
   mainWindow = new BrowserWindow({
     width: 800, 
     height: 600,
@@ -14,7 +14,7 @@ const createWindow = () => {
   })
 }
 
-const app = electron.app
+const app = app
 
 app.on('ready', createWindow)
 
