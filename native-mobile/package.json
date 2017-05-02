@@ -6,17 +6,6 @@
   "scripts": {
     "dev": "react-native-scripts start"
   },
-  "devDependencies": {
-    "babel-plugin-relay": "1.0.1-rc.2",
-    "babel-preset-env": "^1.4.0",
-    "react-native-scripts": "^0.0.27"
-  },
-  "dependencies": {
-    "cortex-components": "^0.1.8",
-    "expo": "^15.1.3",
-    "react": "^15.4.1",
-    "react-native": "^0.42.3"
-  },
   "babel": {
     "presets": [
       "babel-preset-expo"
@@ -28,5 +17,16 @@
         ]
       }
     }
+  },
+  "devDependencies": {
+    "babel-plugin-relay": "1.0.1-rc.2",
+    "babel-preset-env": "^1.4.0",
+    "react-native-scripts": "^0.0.27"
+  },
+  "dependencies": {
+    "cortex-components": "^0.1.8",
+    "expo": "^15.1.3",
+    "react": "^15.4.1",
+    "react-native": "^0.42.3"
   }
 }
