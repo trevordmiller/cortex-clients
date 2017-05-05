@@ -40,7 +40,9 @@
       ]
     }
   },
-  "alias": "cortex",
+  "now": {
+    "alias": "cortex"
+  },
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-plugin-react": "^6.10.3",
