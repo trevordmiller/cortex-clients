@@ -1,10 +1,44 @@
 {
   "name": "cortex-clients-native-mobile",
   "version": "0.1.0",
-  "private": true,
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
-    "dev": "react-native-scripts start"
+    "dev": "react-native-scripts start",
+    "verify": "yarn test && yarn lint && yarn build",
+    "test": "",
+    "lint": "eslint .",
+    "build": "",
+    "release": ""
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "plugins": [
+      "react"
+    ],
+    "env": {
+      "es6": true,
+      "node": true,
+      "jest": true,
+      "browser": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2017,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "rules": {
+      "react/display-name": [
+        "off"
+      ],
+      "react/prop-types": [
+        "off"
+      ]
+    }
   },
   "babel": {
     "presets": [
@@ -21,6 +55,8 @@
   "devDependencies": {
     "babel-plugin-relay": "1.0.1-rc.2",
     "babel-preset-env": "^1.4.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^6.10.3",
     "react-native-scripts": "^0.0.27"
   },
   "dependencies": {

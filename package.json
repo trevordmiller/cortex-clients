@@ -1,8 +1,11 @@
 {
   "name": "cortex-clients",
-  "version": "0.1.0",
-  "description": "The client-specific pieces for Cortex",
-  "repository": "trevordmiller/cortex-clients",
-  "license": "MIT",
-  "author": "Trevor D. Miller (https://trevordmiller.com)"
+  "scripts": {
+    "dev": "",
+    "verify": "yarn test && yarn lint && yarn build",
+    "test": "",
+    "lint": "",
+    "build": "",
+    "release": ""
+  }
 }

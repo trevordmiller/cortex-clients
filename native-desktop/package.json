@@ -1,14 +1,48 @@
 {
   "name": "cortex-clients-native-desktop",
   "version": "0.1.0",
-  "private": true,
   "main": "index.js",
   "scripts": {
-    "dev:renderer": "BROWSER=none PORT=3001 react-scripts start",
-    "dev:main": "electron ."
+    "dev": "concurrently -k 'BROWSER=none PORT=3001 react-scripts start' 'electron .' -p '{name}' -n 'react,electron' -c 'blue,green'",
+    "verify": "yarn test && yarn lint && yarn build",
+    "test": "",
+    "lint": "eslint .",
+    "build": "react-scripts build",
+    "release": ""
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "plugins": [
+      "react"
+    ],
+    "env": {
+      "es6": true,
+      "node": true,
+      "browser": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2017,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "rules": {
+      "react/display-name": [
+        "off"
+      ],
+      "react/prop-types": [
+        "off"
+      ]
+    }
   },
   "devDependencies": {
     "electron": "1.6.6",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^6.10.3",
     "react-scripts": "^0.9.5"
   },
   "dependencies": {

@@ -1,5 +1,4 @@
 **/node_modules/
-**/lib/
+.DS_Store
 **/build/
 **/.expo/
-.DS_Store

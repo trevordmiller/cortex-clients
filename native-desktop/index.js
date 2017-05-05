@@ -3,7 +3,6 @@ const {app, BrowserWindow} = require('electron')
 let mainWindow
 
 const createWindow = () => {
-  const BrowserWindow = BrowserWindow
   mainWindow = new BrowserWindow({
     width: 800, 
     height: 600,
@@ -14,17 +13,17 @@ const createWindow = () => {
   })
 }
 
-const app = app
+const hideaway = app
 
-app.on('ready', createWindow)
+hideaway.on('ready', createWindow)
 
-app.on('window-all-closed', () => {
+hideaway.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {
-    app.quit()
+    hideaway.quit()
   }
 })
 
-app.on('activate', () => {
+hideaway.on('activate', () => {
   if (mainWindow === null) {
     createWindow()
   }
