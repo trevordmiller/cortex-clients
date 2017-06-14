@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "concurrently -k 'BROWSER=none PORT=3001 react-scripts start' 'electron .' -p '{name}' -n 'react,electron' -c 'blue,green'",
-    "verify": "yarn test && yarn lint && yarn build",
+    "verify": "npm test && npm run lint && npm run build",
     "test": "",
     "lint": "eslint .",
     "build": "react-scripts build",
